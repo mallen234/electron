@@ -46,7 +46,7 @@ electron-packager . MyApp --platform=win32 --arch=x64
 
 - Electron Builder
 
-  - Configure you packagaing : package.json
+  - Configure your packagaing : package.json
 
   - Run the packaging
 
