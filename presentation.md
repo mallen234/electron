@@ -38,7 +38,7 @@ npm install electron
 electron-packager <directory> <appname> --platform=<platform> --arch=<architecture> [optional flags]
 ```
 
-    E.g.
+E.g.
 
 ```
 electron-packager . MyApp --platform=win32 --arch=x64
