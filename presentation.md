@@ -66,6 +66,12 @@ marp: true
     - Provides a set of UI components and tools.
   - **Relative Disadvantage of JavaFX - Steeper Learning Curve:**
     - For developers primarily familiar with web technologies.
+---
+| Tool Name | Difference | Advantage                                         | Disadvantage                                             |
+|-----------|------------|---------------------------------------------------|----------------------------------------------------------|
+| NW.js     | Electron.js uses a separate renderer process, while NW.js integrates Chromium directly within Node.js. | Chromium rendering engine and Node.js runtime run within the same process. | Resources shared within the same process may lead to suboptimal resource utilization and performance degradation. |
+| Qt        | Tailored for C++ development.                     | More flexibility and performance due to compiled languages and native UI components. | Steeper learning curve for developers primarily familiar with web technologies. |
+| JavaFX    | Tailored for Java development.                    | Develop highly portable applications that can run on any platform with a Java Runtime Environment (JRE) installed. | Steeper learning curve for developers primarily familiar with web technologies. Provides rich graphical user interfaces (UIs) with a set of UI components and tools. |
 
 ---
 # Where Would You Use It?
