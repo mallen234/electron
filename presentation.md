@@ -26,7 +26,7 @@ marp: true
   - Large and active community contributing plugins, libraries, and resources to extend its capabilities.
 
 ---
-| Tool Name | Difference | Advantage                                         | Disadvantage                                             |
+| Competitor | Difference | Advantage                                         | Disadvantage                                             |
 |-----------|------------|---------------------------------------------------|----------------------------------------------------------|
 | NW.js     | Electron.js uses a separate renderer process, while NW.js integrates Chromium directly within Node.js. | Chromium rendering engine and Node.js runtime run within the same process. | Resources shared within the same process may lead to suboptimal resource utilization and performance degradation. |
 | Qt        | Tailored for C++ development.                     | More flexibility and performance due to compiled languages and native UI components. | Steeper learning curve for developers primarily familiar with web technologies. |
