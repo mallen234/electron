@@ -13,7 +13,7 @@ marp: true
 
 - **Cross-Platform Compatibility:**
 
-  - Can build desktop applications that run on multiple operating systems.
+  - Build desktop applications that run on multiple operating systems.
 
 - **Uses Familiar Web Technologies:**
 
@@ -24,25 +24,17 @@ marp: true
   - Provides access to native user interface components through platform-specific APIs.
 
 - **Node.js Integration:**
-  - Enables applications to interact with the file system and implement server-side logic.
+  
+  - Enables applications to implement server-side logic and access system resources incl. file system.
 
 ---
 
 | Competitor | Difference                                                                                             | Advantage                                                                                                          | Disadvantage                                                                                                                                                         |
 | ---------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NW.js      | NW.js integrates Chromium directly within Node.js. | Chromium rendering engine and Node.js runtime run within the same process.                                         | May lead to suboptimal resource allocation.                                                    |
-| Qt         | Tailored for C++ development.                                                                          | More flexibility and performance.                               | Steeper learning curve for developers primarily familiar with web technologies.                                                                                      |
-| JavaFX     | Tailored for Java development.                                                                         | Develop highly portable applications that can run on any platform with a Java Runtime Environment (JRE) installed. | Steeper learning curve for developers primarily familiar with web technologies.|
+| NW.js      | NW.js integrates Chromium directly within Node.js. | Tighter integration of processes.                                         | May lead to suboptimal resource allocation.                                                    |
+| Qt         | Tailored for C++ development.                                                                          | More flexibility and performance.                               | Steeper learning curve.                                                                                      |
+| JavaFX     | Tailored for Java development.                                                                         | Develop highly portable applications that can run on any platform with a Java Runtime Environment installed. | Steeper learning curve.|
 
----
-
-# Where Would You Use It?
-
-- **Cross-Platform Desktop Applications**
-- **Developers familiar with HTML, CSS, and JavaScrip**
-- **Applications with server-side logic, access to system resources**
-- **Performance Requirements:**
-  - Can have performance overhead compared Qt and JavaFX.
 ---
 
 ## Tools used alongside Electron
@@ -114,9 +106,9 @@ npx electron-builder
 
 ---
 
-# Case Study: A Collaboration Tool with Real-Time Communication Features (e.g. Slack)
+# Case Study: A Collaboration Tool with Real-Time Communication Features
 
-  - Used across different operating systems with a consistent user experience.
-  - Create modern, responsive, and visually appealing user interfaces using frameworks like React to facilitate communication and collaboration features.
-  - Node.js on the backend for communication protocols, user sessions, and real-time data synchronization.
+  - Consistent user experience across different operating systems.
+  - Modern, responsive, and visually appealing UIs using frameworks like React.
+  - Node.js on the backend for communication protocols, user sessions, and real-time data.
   - Node.js integration enables features like file uploading/downloading, network connectivity checks, and desktop notifications.
