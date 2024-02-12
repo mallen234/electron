@@ -32,6 +32,10 @@ npm install electron
 
 3. Package your application
 
+---
+
+## Packaging your application
+
 - Electron Packager
 
 ```
@@ -58,9 +62,13 @@ npx electron-builder
 
 ## Examples of applications that used Electron
 
+##
+
 - Microsoft Teams
 - Slack
 - VSCode
+
+##
 
 - Discord
 - 1password
