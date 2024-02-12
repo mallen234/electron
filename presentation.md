@@ -6,18 +6,6 @@ marp: true
 
 - Front end framework developed to produce desktop apps
 - Uses node.js and chromium
-
----
-# What is Electron.js?
-
-- It essentially wraps web technologies into native applications, enabling developers to create desktop applications with familiar web development tools and workflows.
-- Native applications are software applications developed specifically for a particular operating system.
-- Electron.js has gained popularity due to its:
-  - Ease of use.
-  - Extensive community support.
-  - Ability to leverage existing web development skills to build powerful desktop applications.
-- Notable applications built with Electron.js include Slack, Visual Studio Code, and Discord.
-
 ---
 # Key Features
 
