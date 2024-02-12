@@ -39,34 +39,6 @@ marp: true
   - Large and active community contributing plugins, libraries, and resources to extend its capabilities.
 
 ---
-# Comparison to Competitors / Alternative Tools
-
-- **NW.js (formerly Node-Webkit):**
-  - **Difference:**
-    - Electron.js uses a separate renderer process, while NW.js integrates Chromium directly within Node.js.
-  - **Relative Advantage of NW.js - Tighter Integration:**
-    - Chromium rendering engine and Node.js runtime run within the same process.
-  - **Relative Disadvantage of NW.js - Performance Overhead:**
-    - Resources shared within the same process may lead to suboptimal resource utilization and performance degradation.
-
-- **Qt:**
-  - **Difference:**
-    - Tailored for C++ development.
-  - **Relative Advantage of Qt - More Flexibility and Performance:**
-    - Due to compiled languages and native UI components.
-  - **Relative Disadvantage of Qt - Steeper Learning Curve:**
-    - For developers primarily familiar with web technologies.
-
-- **JavaFX:**
-  - **Difference:**
-    - Tailored for Java development.
-  - **Relative Advantage of JavaFX - Develop Highly Portable Applications:**
-    - Can run on any platform with a Java Runtime Environment (JRE) installed.
-  - **Relative Advantage of JavaFX - Rich Graphical User Interfaces (UIs):**
-    - Provides a set of UI components and tools.
-  - **Relative Disadvantage of JavaFX - Steeper Learning Curve:**
-    - For developers primarily familiar with web technologies.
----
 | Tool Name | Difference | Advantage                                         | Disadvantage                                             |
 |-----------|------------|---------------------------------------------------|----------------------------------------------------------|
 | NW.js     | Electron.js uses a separate renderer process, while NW.js integrates Chromium directly within Node.js. | Chromium rendering engine and Node.js runtime run within the same process. | Resources shared within the same process may lead to suboptimal resource utilization and performance degradation. |
