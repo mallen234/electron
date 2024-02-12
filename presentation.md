@@ -19,12 +19,12 @@ marp: true
 
   - HTML, CSS, and JavaScript
 
-- **Enables Development of Native UI Components:**
+- **Development of Native UI Components:**
 
   - Provides access to native user interface components through platform-specific APIs.
 
-- **Improved functionality via Node.js Integration:**
-  - Integrates Node.js runtime, enabling applications to interact with the file system and implement server-side logic.
+- **Node.js Integration:**
+  - Enables applications to interact with the file system and implement server-side logic.
 
 ---
 
@@ -32,7 +32,7 @@ marp: true
 | ---------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | NW.js      | Electron.js uses a separate renderer process, while NW.js integrates Chromium directly within Node.js. | Chromium rendering engine and Node.js runtime run within the same process.                                         | Resources shared within the same process may lead to suboptimal resource utilization and performance degradation.                                                    |
 | Qt         | Tailored for C++ development.                                                                          | More flexibility and performance due to compiled languages and native UI components.                               | Steeper learning curve for developers primarily familiar with web technologies.                                                                                      |
-| JavaFX     | Tailored for Java development.                                                                         | Develop highly portable applications that can run on any platform with a Java Runtime Environment (JRE) installed. | Steeper learning curve for developers primarily familiar with web technologies. Provides rich graphical user interfaces (UIs) with a set of UI components and tools. |
+| JavaFX     | Tailored for Java development.                                                                         | Develop highly portable applications that can run on any platform with a Java Runtime Environment (JRE) installed. | Steeper learning curve for developers primarily familiar with web technologies.|
 
 ---
 
@@ -47,19 +47,6 @@ marp: true
 - **Performance Requirements:**
   - Can have performance overhead compared to native applications or tools like Qt and JavaFX.
   - If the benefits of using web technologies and Node.js integration outweigh the performance considerations, Electron.js can be a suitable choice.
-
----
-
-# Case Study: A Collaboration Tool with Real-Time Communication Features (e.g. Slack)
-
-- **Cross-Platform Compatibility:**
-  - Used across different operating systems with a consistent user experience.
-- **Web Technologies and Modern UIs:**
-  - Create modern, responsive, and visually appealing user interfaces using frameworks like React to facilitate communication and collaboration features.
-- **Real-Time Communication:**
-  - Node.js on the backend for communication protocols, user sessions, and real-time data synchronization.
-- **Access to System Resources:**
-  - Node.js integration enables features like file uploading/downloading, network connectivity checks, and desktop notifications.
 
 ---
 
@@ -129,3 +116,16 @@ npx electron-builder
 - Notion
 - Obsidian
 - Skype
+
+---
+
+# Case Study: A Collaboration Tool with Real-Time Communication Features (e.g. Slack)
+
+- **Cross-Platform Compatibility:**
+  - Used across different operating systems with a consistent user experience.
+- **Web Technologies and Modern UIs:**
+  - Create modern, responsive, and visually appealing user interfaces using frameworks like React to facilitate communication and collaboration features.
+- **Real-Time Communication:**
+  - Node.js on the backend for communication protocols, user sessions, and real-time data synchronization.
+- **Access to System Resources:**
+  - Node.js integration enables features like file uploading/downloading, network connectivity checks, and desktop notifications.
