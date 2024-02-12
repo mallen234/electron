@@ -13,7 +13,7 @@ marp: true
 
 - **Cross-Platform Compatibility:**
 
-  - Can build desktop applications that run on multiple operating systems.
+  - Build desktop applications that run on multiple operating systems.
 
 - **Uses Familiar Web Technologies:**
 
@@ -24,7 +24,8 @@ marp: true
   - Provides access to native user interface components through platform-specific APIs.
 
 - **Node.js Integration:**
-  - Enables applications to interact with the file system and implement server-side logic.
+  
+  - Enables applications to implement server-side logic and access system resources incl. file system.
 
 ---
 
@@ -34,13 +35,6 @@ marp: true
 | Qt         | Tailored for C++ development.                                                                          | More flexibility and performance.                               | Steeper learning curve for developers primarily familiar with web technologies.                                                                                      |
 | JavaFX     | Tailored for Java development.                                                                         | Develop highly portable applications that can run on any platform with a Java Runtime Environment installed. | Steeper learning curve for developers primarily familiar with web technologies.|
 
----
-
-# Where Would You Use It?
-
-- **Cross-Platform Desktop Applications**
-- **Developers familiar with HTML, CSS, and JavaScript**
-- **Applications with server-side logic, access to system resources**
 ---
 
 ## Tools used alongside Electron
