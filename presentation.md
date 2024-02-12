@@ -10,7 +10,6 @@ marp: true
 ---
 # What is Electron.js?
 
-- Electron.js is an open-source framework developed by GitHub designed to run on multiple operating systems.
 - It essentially wraps web technologies into native applications, enabling developers to create desktop applications with familiar web development tools and workflows.
 - Native applications are software applications developed specifically for a particular operating system.
 - Electron.js has gained popularity due to its:
