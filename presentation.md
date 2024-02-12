@@ -38,16 +38,11 @@ marp: true
 
 # Where Would You Use It?
 
-- **Cross-Platform Desktop Applications:**
-  - That need to run consistently across different operating systems.
-- **Web Technology Stack:**
-  - Developer teams with skills in HTML, CSS, and JavaScript.
-- **Integration with Node.js Ecosystem:**
-  - Applications can have server-side logic, access to system resources, or interaction with external services.
+- **Cross-Platform Desktop Applications**
+- **Developers familiar with HTML, CSS, and JavaScrip**
+- **Applications with server-side logic, access to system resources**
 - **Performance Requirements:**
-  - Can have performance overhead compared to native applications or tools like Qt and JavaFX.
-  - If the benefits of using web technologies and Node.js integration outweigh the performance considerations, Electron.js can be a suitable choice.
-
+  - Can have performance overhead compared Qt and JavaFX.
 ---
 
 ## Tools used alongside Electron
@@ -121,11 +116,7 @@ npx electron-builder
 
 # Case Study: A Collaboration Tool with Real-Time Communication Features (e.g. Slack)
 
-- **Cross-Platform Compatibility:**
   - Used across different operating systems with a consistent user experience.
-- **Web Technologies and Modern UIs:**
   - Create modern, responsive, and visually appealing user interfaces using frameworks like React to facilitate communication and collaboration features.
-- **Real-Time Communication:**
   - Node.js on the backend for communication protocols, user sessions, and real-time data synchronization.
-- **Access to System Resources:**
   - Node.js integration enables features like file uploading/downloading, network connectivity checks, and desktop notifications.
