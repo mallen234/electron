@@ -30,9 +30,9 @@ marp: true
 
 | Competitor | Difference                                                                                             | Advantage                                                                                                          | Disadvantage                                                                                                                                                         |
 | ---------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NW.js      | NW.js integrates Chromium directly within Node.js. | Chromium rendering engine and Node.js runtime run within the same process.                                         | May lead to suboptimal resource allocation.                                                    |
+| NW.js      | NW.js integrates Chromium directly within Node.js. | Tighter integration of processes.                                         | May lead to suboptimal resource allocation.                                                    |
 | Qt         | Tailored for C++ development.                                                                          | More flexibility and performance.                               | Steeper learning curve for developers primarily familiar with web technologies.                                                                                      |
-| JavaFX     | Tailored for Java development.                                                                         | Develop highly portable applications that can run on any platform with a Java Runtime Environment (JRE) installed. | Steeper learning curve for developers primarily familiar with web technologies.|
+| JavaFX     | Tailored for Java development.                                                                         | Develop highly portable applications that can run on any platform with a Java Runtime Environment installed. | Steeper learning curve for developers primarily familiar with web technologies.|
 
 ---
 
@@ -41,8 +41,6 @@ marp: true
 - **Cross-Platform Desktop Applications**
 - **Developers familiar with HTML, CSS, and JavaScrip**
 - **Applications with server-side logic, access to system resources**
-- **Performance Requirements:**
-  - Can have performance overhead compared Qt and JavaFX.
 ---
 
 ## Tools used alongside Electron
@@ -114,9 +112,9 @@ npx electron-builder
 
 ---
 
-# Case Study: A Collaboration Tool with Real-Time Communication Features (e.g. Slack)
+# Case Study: A Collaboration Tool with Real-Time Communication Features
 
-  - Used across different operating systems with a consistent user experience.
-  - Create modern, responsive, and visually appealing user interfaces using frameworks like React to facilitate communication and collaboration features.
-  - Node.js on the backend for communication protocols, user sessions, and real-time data synchronization.
+  - Consistent user experience across different operating systems.
+  - Modern, responsive, and visually appealing UIs using frameworks like React.
+  - Node.js on the backend for communication protocols, user sessions, and real-time data.
   - Node.js integration enables features like file uploading/downloading, network connectivity checks, and desktop notifications.
