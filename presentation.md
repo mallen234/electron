@@ -39,7 +39,7 @@ marp: true
 # Where Would You Use It?
 
 - **Cross-Platform Desktop Applications**
-- **Developers familiar with HTML, CSS, and JavaScrip**
+- **Developers familiar with HTML, CSS, and JavaScript**
 - **Applications with server-side logic, access to system resources**
 ---
 
